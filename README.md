@@ -5,4 +5,4 @@ Automation install dev enviroment for Ubuntu distro
 
   chmod +x automation-DevEnvUbunbu.sh
   
-  sudo ./automation-DevEnvUbunbu.sh
+        sudo ./automation-DevEnvUbunbu.sh
