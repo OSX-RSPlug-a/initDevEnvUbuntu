@@ -1,5 +1,14 @@
 # initDevEnvUbuntu
-Automation install dev enviroment for Ubuntu distro
+Automation install dev enviroment for Ubuntu distros
+
+Dev env for:
+
+- python;
+- java;
+- clojure;
+- nodejs;
+- docker;
+
 
 # Init and exec script
 
