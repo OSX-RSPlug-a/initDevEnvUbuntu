@@ -31,16 +31,6 @@ echo "PermitRootLogin no" >> /etc/ssh/sshd_config
 echo "PermitEmptyPasswords no" /etc/ssh/sshd_config
 
 
-# Automatic downloads of security updates
-sudo apt-get install -y unattended-upgrades
-echo "Unattended-Upgrade::Allowed-Origins {
-#   "${distro_id}:${distro_codename}-security";
-#//  "${distro_id}:${distro_codename}-updates";
-#//  "${distro_id}:${distro_codename}-proposed";
-#//  "${distro_id}:${distro_codename}-backports";
-#Unattended-Upgrade::Automatic-Reboot "true"; 
-#}; " >> /etc/apt/apt.conf.d/50unattended-upgrades
-
 # Fail2Ban install 
 sudo apt-get install -y fail2ban
 sudo systemctl start fail2ban
