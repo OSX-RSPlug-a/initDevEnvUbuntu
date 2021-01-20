@@ -4,6 +4,7 @@ Automation install dev enviroment for Ubuntu distros
 Dev env for:
 
 - python;
+- golang;
 - java;
 - clojure;
 - nodejs;
