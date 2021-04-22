@@ -8,6 +8,7 @@ Dev env for:
 - java;
 - clojure;
 - nodejs;
+- elixir
 - docker;
 
 
