@@ -13,7 +13,10 @@ sudo apt-get update -y
 sudo apt-get upgrade -y
 
 # Install ur packs essentials
-sudo apt-get install openssh-server netdata zip p7zip-full net-tools speedtest-cli build-essential autoconf m4 libncurses5-dev libwxgtk3.0-gtk3-dev libgl1-mesa-dev libglu1-mesa-dev libpng-dev libssh-dev unixodbc-dev xsltproc fop libxml2-utils libncurses-dev openjdk-11-jdk checkinstall libssl-dev python3-pip golang gnome-disk-utility neofetch -y
+sudo apt-get install openssh-server netdata zip p7zip-full net-tools speedtest-cli \ 
+build-essential autoconf m4 libncurses5-dev libwxgtk3.0-gtk3-dev libgl1-mesa-dev libglu1-mesa-dev \ 
+libpng-dev libssh-dev unixodbc-dev xsltproc fop libxml2-utils libncurses-dev openjdk-11-jdk checkinstall \
+libssl-dev python3-pip golang gnome-disk-utility neofetch -y
 
 
 # Enable Firewall
