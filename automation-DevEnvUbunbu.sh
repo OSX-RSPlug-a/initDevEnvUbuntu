@@ -37,7 +37,7 @@ echo "PermitEmptyPasswords no" /etc/ssh/sshd_config
 
 
 # Fail2Ban install 
-sudo apt-get install -y fail2ban
+sudo apt-get install -y fail2ban fail2ban-firewalld
 sudo systemctl start fail2ban
 sudo systemctl enable fail2ban
 
