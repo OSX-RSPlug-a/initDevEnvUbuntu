@@ -42,6 +42,12 @@ sudo systemctl start fail2ban
 sudo systemctl enable fail2ban
 
 echo "
+[DEFAULT]
+ignoreip = 127.0.0.1/8 ::1
+bantime = 1h
+findtime = 1h
+maxretry = 5 
+
 [sshd]
 enabled = true
 port = 22
